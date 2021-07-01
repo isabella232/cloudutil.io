@@ -1,39 +1,39 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "CloudUtil"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+titleAddition = "Simple tools for cloud cost optimization"
+description = "CloudUtil offers a collection of simple utilities designed to optimize your cloud computing infrastructure costs."
 
 ## Open Graph
-images = ["doks.png"]
+images = ["logo.png"]
 ogLocale = "en_US"
-domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+domainTLD = "cloudutil.io"
+titleHome = "CloudUtil"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@magheru_san"
+twitterCreator = "@magheru_san"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
-schemaName = "Doks"
-schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
+schemaName = "CloudUtil"
+schemaAuthor = "Cristian Magherusan-Stanciu"
+schemaAuthorTwitter = "https://twitter.com/magheru_san"
 schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaAuthorGitHub = "https://github.com/cloudutil-io"
 schemaLocale = "en-US"
-schemaLogo = "logo-doks.png"
+schemaLogo = "logo.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "doks.png"
+schemaImage = "logo.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaTwitter = "https://twitter.com/magheru_san"
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/cloudutil"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -58,8 +58,8 @@ alert = false
 alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
-docsRepo = "https://github.com/h-enk/doks"
-editPage = false
+docsRepo = "https://github.com/cloudutil/cloudutil.io"
+editPage = true
 
 [options]
   lazySizes = true
@@ -71,4 +71,4 @@ editPage = false
   breadCrumb = false
   highLight = true
   kaTex = false
-  collapsibleSidebar = false
+  collapsibleSidebar = true

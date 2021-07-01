@@ -1,14 +1,14 @@
 ---
 title: "Introduction"
-description: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
-lead: "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+description: "CloudUtil offers a collection of simple utilities designed to optimize your cloud computing infrastructure costs."
+lead: "CloudUtil offers a collection of simple utilities designed to optimize your cloud computing infrastructure costs."
 date: 2020-10-06T08:48:57+00:00
 lastmod: 2020-10-06T08:48:57+00:00
 draft: false
 images: []
 menu:
   docs:
-    parent: "prologue"
+    parent: "ebs-optimizer"
 weight: 100
 toc: true
 ---
@@ -19,13 +19,9 @@ There are two main ways to get started with Doks:
 
 ### Tutorial
 
-{{< alert icon="👉" text="The Tutorial is intended for novice to intermediate users." />}}
-
 Step-by-step instructions on how to start a new Doks project. [Tutorial →](https://getdoks.org/tutorial/introduction/)
 
 ### Quick Start
-
-{{< alert icon="👉" text="The Quick Start is intended for intermediate to advanced users." />}}
 
 One page summary of how to start a new Doks project. [Quick Start →]({{< relref "quick-start" >}})
 

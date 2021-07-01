@@ -7,4 +7,4 @@ draft: true
 images: []
 ---
 
-{{< email user="hello" domain="cloudutils.io" >}}
+{{< email user="hello" domain="cloudutil.io" >}}
