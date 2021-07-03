@@ -12,7 +12,7 @@
 
 [[main]]
   name = "Tools"
-  url = "/docs/autospotting/how-to-update"
+  url = "/docs/available-tools/"
   weight = 10
 
 [[main]]
