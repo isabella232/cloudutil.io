@@ -9,4 +9,4 @@ images: []
 
 Creator of CloudUtil, AutoSpotting and EBS-Optimizer.
 
-[@HenkVerlinde](https://twitter.com/magheru_san)
+[@magheru_san](https://twitter.com/magheru_san)
