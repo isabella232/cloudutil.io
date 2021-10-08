@@ -3,11 +3,21 @@
 <section class="section container-fluid mt-n3 pb-3">
   <div class="row justify-content-center">
     <div class="col-lg-12 text-center">
-      <h1 class="mt-0">{{ .Title }}</h1>
+      <h2 class="mt-0">{{ .Title }}</h1>
     </div>
     <div class="col-lg-12 col-xl-12 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-     </div>
+    </div>
+    <div class="col-lg-12 text-center">
+      <h2 class="mt-0">Our Solutions</h1>
+    </div>
+    <div class="col-lg-12 col-xl-12 text-center">
+      <p class="lead">CloudUtil offers a set of <a href="https://aws.amazon.com/marketplace/seller-profile?id=a7ef2f5c-28b4-4dc2-90f5-ce4da9127c7f">utilities</a>
+       designed to automatically tackle this waste with no required configuration
+       changes, generating significant cost savings with minimal effort. So far we have tools
+       for both <a href="https://aws.amazon.com/marketplace/pp/B09B2LK8Y2">seamless optimization of EBS volumes</a>, as well as <a href="https://aws.amazon.com/marketplace/pp/B09B1B3LRT">quick and easy conversion of ASGs to Spot instances</a>.
+      </p>
+    </div>
   </div>
 </section>
 {{ end }}
@@ -32,7 +42,7 @@
         </p>
       </div>
       <div class="col-lg-5">
-        <h2 class="h4">Inexpensive</h2>
+        <h2 class="h4">Cost-effective</h2>
         <p>
         Supported, easy to install builds are available on the AWS Marketplace
         for less than 5% of the generated savings, charged pay-as-you-go. <br/>
@@ -61,7 +71,7 @@
         <h2 class="h4">Sustainable</h2>
         <p>
         Charging a small percentage of the savings ensures
-        continued development. <br/> Donating over 10% of proceeds to charities and other OSS projects.
+        continued development. <br/> Donating over 10% of proceeds to charities and other open source projects.
         <!-- Income for any repackaged 3rd party software is shared 50/50% with its authors if possible or donated to charity. -->
         </p>
       </div>
