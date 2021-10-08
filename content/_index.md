@@ -10,7 +10,7 @@ lead: >
   using suboptimal configurations, and that
   Vantage's AWS Cost Leaderboard shows <a href="https://leaderboard.vantage.sh/"> EC2 and EBS are among the largest cost drivers</a>? <br/>
 
-  On the EC2 side, the majority of AutoScaling groups are fault tolerant enough to be safely converted to <a href="https://aws.amazon.com/ec2/spot/">EC2 Spot instances</a>, for up to 90% cost savings. <br/>
+  On the EC2 side, the majority of AutoScaling groups(ASGs) are fault tolerant enough to be safely converted to <a href="https://aws.amazon.com/ec2/spot/">EC2 Spot instances</a>, for up to 90% cost savings. <br/>
 
   When it comes to EBS volumes, Vantage also announced that about 85% of EBS volumes (the block storage used by every single running EC2 instance) are from previous generations and <a href="https://www.vantage.sh/blog/ebs-gp2-to-gp3-cost-savings">could be optimized to cost up to 20% less and offer increased performance</a> with a small and harmless configuration change. <br/>
 
