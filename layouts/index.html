@@ -8,18 +8,40 @@
     <div class="col-lg-12 col-xl-12 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
     </div>
+
+     <div class="col-lg-12 text-center">
+      <h2 class="mt-0">Savings opportunities</h2>
+    </div>
+    <div class="col-lg-12 col-xl-12 text-center">
+      <p class="lead">
+      On the EC2 side, the majority of AutoScaling groups(ASGs) are fault tolerant enough
+      to be safely converted to <a href="https://aws.amazon.com/ec2/spot/">EC2 Spot instances</a>,
+      for up to 90% cost savings. <br/>
+      When it comes to EBS volumes, <a href="https://www.vantage.sh/blog/ebs-gp2-to-gp3-cost-savings">
+      about 85% of EBS volumes</a> (the block storage used by EC2 instances)
+      are from previous generations and
+      <a href="https://aws.amazon.com/blogs/storage/migrate-your-amazon-ebs-volumes-from-gp2-to-gp3-and-save-up-to-20-on-costs/">
+      could be optimized to cost up to 20% less and offer increased performance</a>
+      with a small and harmless configuration change. <br/>
+</p>
+    </div>
+
+
     <div class="col-lg-12 text-center">
-      <h2 class="mt-0">Our Solutions</h1>
+      <h2 class="mt-0">CloudUtil solutions</h1>
     </div>
     <div class="col-lg-12 col-xl-12 text-center">
       <p class="lead">CloudUtil offers a set of <a href="https://aws.amazon.com/marketplace/seller-profile?id=a7ef2f5c-28b4-4dc2-90f5-ce4da9127c7f">utilities</a>
-       designed to automatically tackle this waste with no required configuration
-       changes, generating significant cost savings with minimal effort. So far we have tools
-       for both <a href="https://aws.amazon.com/marketplace/pp/B09B2LK8Y2">seamless optimization of EBS volumes</a>, as well as <a href="https://aws.amazon.com/marketplace/pp/B09B1B3LRT">quick and easy conversion of ASGs to Spot instances</a>.
+       designed to automate the use of these cost savings opportunities in a way that requires no configuration
+       changes, generating significant cost savings with minimal effort. We have tools
+       for both <a href="https://aws.amazon.com/marketplace/pp/B09B2LK8Y2">optimization of EBS volumes
+        to the best volume type</a> for up to 20% of savings, as well as
+        <a href="https://aws.amazon.com/marketplace/pp/B09B1B3LRT">quick and easy conversion of ASGs
+        to Spot instances</a>  for up to 90% of cost savings.
       </p>
     </div>
     <div class="col-lg-12 text-center">
-      <h2 class="mt-0">Our guiding principles</h1>
+      <h2 class="mt-0">Guiding principles</h1>
     </div>
   </div>
 </section>
@@ -29,27 +51,29 @@
 <section class="section section-sm">
   <div class="container">
     <div class="row justify-content-center text-center">
+    <div class="col-lg-5">
+        <h2 class="h4">Customer-focused</h2>
+        <p>
+        Designed to save you money AND time, you can install them in minutes
+         from the AWS marketplace. <br/>
+         We'll help you free of charge to get the most out of them.<br/>
+        </p>
+      </div>
       <div class="col-lg-5">
         <h2 class="h4">Safe and Secure</h2>
         <p>
+        Stable, supported, reliable and trusted by over 5000 users. <br/>
         Running entirely in your AWS account with minimal IAM permissions. <br/>
-        No SaaS backend that may mine your data. <br/> Auditable
-        open source code.
+        Auditable open source code.
         </p>
       </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Customer-Focused</h2>
-        <p>
-        Designed to save you time AND money! <br/> Install in minutes using infrastructure code. <br/> Stable, supported, reliable software trusted by thousands
-        of users.
-        </p>
-      </div>
+
       <div class="col-lg-5">
         <h2 class="h4">Cost-effective</h2>
         <p>
-        Supported, easy to install builds are available on the AWS Marketplace
-        for less than 5% of the generated savings, charged pay-as-you-go. <br/>
-        Free (but not supported) if built from source.
+        Supported, easy to install builds are available on the AWS Marketplace.<br/>
+        Pay-as-you-go model.<br/>
+        Costs you less than 5% of the generated savings.
         </p>
       </div>
     </div>
@@ -57,25 +81,27 @@
       <div class="col-lg-5">
         <h2 class="h4">Simple</h2>
         <p>
-         No GUI dashboards or other bells and whistles.<br/> Reliable,
-        safer, easier to maintain and extend. <br/> Composable UNIX-style tools that do a single job but do it
-        well.
-        </p>
+        Composable UNIX-style tools that do a single job but do it
+        well, so you can understand how they work. <br/>
+        Reliable, safer, easier to maintain and extend if you need.
       </div>
-      <div class="col-lg-5">
-        <h2 class="h4">Full Transparency</h2>
-        <p>
-        Auditable and customizable open source software fully
-        developed in the open. <br/> Public roadmap that anyone can influence
-        or contribute towards.
-        </p>
-      </div>
+
       <div class="col-lg-5">
         <h2 class="h4">Sustainable</h2>
         <p>
-        Charging a small percentage of the savings to ensure
-        continued development. <br/> Donating over 10% of proceeds to charities and other open source projects.
+        Charging you a small percentage of the savings, just as much we need to ensure
+        continued development. <br/>
+        Donating over 10% of proceeds to charities and other open source projects.
         <!-- Income for any repackaged 3rd party software is shared 50/50% with its authors if possible or donated to charity. -->
+        </p>
+      </div>
+
+       <div class="col-lg-5">
+        <h2 class="h4">Open Source</h2>
+        <p>
+        Auditable and customizable open source software fully
+        developed in the open by a vibrant community. <br/> Public roadmap that you can influence
+        or contribute towards.
         </p>
       </div>
     </div>
@@ -90,6 +116,11 @@
   </div>
 </section>
   <div class="row justify-content-center">
+   <div class="col-lg-9 col-xl-8 text-center">
+  <p>
+        If you have any questions, send us an <a href="mailto:contact@cloudutil.io">email</a>.
+        </p>
+        </div>
    </div>
 </section>
 {{ end }}
